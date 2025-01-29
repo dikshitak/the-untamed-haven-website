@@ -1,7 +1,7 @@
 import CabinList from "@/app/_components/CabinList";
 import { Suspense } from "react";
 import Spinner from "@/app/_components/Spinner";
-import Filter from "@/app/_components/filter";
+import Filter from "@/app/_components/Filter";
 import ReservationReminder from "../_components/ReservationReminder";
 
 // export const revalidate = 3600; This page will be dynamically rendered due to filters so this revalidation does not sense. Revalidation is for statically generated pages.
